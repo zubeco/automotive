@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,700;1,400&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.home-wrapper{
+    position: relative;
+    height: 100vh; 
+    width: 100%;
+    background-position:top; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+    background-image: url('../../img/background.jpg');
+}
+
+.message{
+    color: rgb(235, 233, 233);
+    position: absolute;
+    top: 75%;
+    left: 68%;
+}
+
+.line{
+}
+
+.price{
+    display: flex;
+    align-items: center;
+    padding-bottom: 10px;
+    color: white;
+}
+
+.price h3{
+    padding-right: 5px;
+}
+
+.price h4{
+    background-color: #858585;
+    padding: 5px 10px ;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.message h5{
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+
+.message p{
+    font-size: 11px;
+    color: #acaaab ;
+}
